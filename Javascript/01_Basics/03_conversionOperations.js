@@ -1,7 +1,7 @@
 let score = "45";
 // console.log(typeof score);
 let valueInNumber = Number(score); // N in capital
-// console.log(typeof valueInNumber);
+//  console.log(typeof valueInNumber);
 // console.log(valueInNumber);
 // "33" => 33
 // "33abc" => NaN (not a number) but type is still number
@@ -19,7 +19,7 @@ let stringNumber = String(someNumber);
 // console.log(someNumber);
 // console.log(typeof stringNumber);
 
-/****************************************************** Operations ********************************************************/
+/************************************************ Operations ***************************************************/
 
 // 2 raised to the power 3
 // console.log(2 ** 3);

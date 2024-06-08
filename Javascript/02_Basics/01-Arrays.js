@@ -5,7 +5,7 @@ const myArray = [0, "Arjun", 2, false, 4, 5, 6];
 // console.log(myArray2[3]);
 myArray.push("hello");
 myArray.unshift(90); // adds element at the start => costly operation
-myArray.shift(); // removes the starting element of the arr ay
+myArray.shift(); // removes the starting element of the array
 // console.log(myArray);
 myArray.pop();
 // console.log(myArray);

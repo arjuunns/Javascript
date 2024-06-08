@@ -2,13 +2,13 @@ const myObject = {
   js: "Javascript",
   cpp: "C++",
   rb: "Ruby",
-  swift: "Swift for loop",
+  swift: "Swift",
 };
 
 // Iterating on objects using for in loop =>
 // note : forof loop me by default values print hoti hai and forin loop me keys
 for (const key in myObject) {
-  //   console.log(`Key :- ${key}, value :- ${myObject[key]}`);
+    // console.log(`Key :- ${key}, value :- ${myObject[key]}`);
 }
 
 const arr = [2, 3, 3, 4, 5, 3];
@@ -47,7 +47,7 @@ function printMe(item){
 coding.forEach(printMe); // function ka reference pass kar diya
 
 coding.forEach( (item,index,arr) => { // you can even pass item,index and array in parameter to get the required things
-    // console.log(item , index , arr);
+    console.log(item , index , arr);
 })
 
 // V.V.IMP =>
@@ -70,5 +70,5 @@ const myCoding = [
 // Jab bhi database se data ayega mostly array of objects ki form m hi ayega, then maximum times you will use for-each lopp
 
 myCoding.forEach( (item)=>{
-    console.log(item.langauageName);
+    // console.log(item.langauageName);
 })

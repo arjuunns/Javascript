@@ -17,3 +17,5 @@
 ((name) => {  // using arrow function creating IIFE
   console.log(`DB connected ${name}`);
 })("Arjun");  // treat 2nd parenthesis as function execution , pass values in it.
+
+// Note => iife ke end m ; use krna pdta 

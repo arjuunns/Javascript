@@ -17,15 +17,15 @@ const JsUser = {
   lastLoginDays: ["Monday", "Saturday"],
 };
 
-// console.log(JsUser.email);
-// console.log(JsUser["email"]); // imp hai => jab object mein key string type ki hogi toh fas jaoge varna
+console.log(JsUser.email);
+console.log(JsUser["email"]); // imp hai => jab object mein key string type ki hogi toh fas jaoge varna
 // console.log(JsUser.experience in years); // won't work as key is multiple words string type
 // console.log(JsUser["experience in years"]);
 // console.log(JsUser.mySym);
 // console.log(typeof JsUser.mySym); // symbol is of string dataype not symbol dataype
 // console.log(JsUser.mySym); // won't work
 // console.log(JsUser[mySym]);
-// console.log(typeof JsUser[mySym]);
+console.log(typeof JsUser[mySym]);
 
 // Object.freeze(JsUser); // prevents overiding of object data
 

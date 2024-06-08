@@ -21,8 +21,8 @@ function addTwoNumbers(num1, num2) {
 }
 let a = 4;
 let b = 6;
-let result = addTwoNumbers(); // agar func me parameter nahi doge like addTwoNumber() then unke by default dataype undefined ho jayenge
-// console.log(`Sum of ${a} and ${b} is :`, result);
+let result = addTwoNumbers(a,b); // agar func me parameter nahi doge like addTwoNumber() then unke by default dataype undefined ho jayenge
+console.log(`Sum of ${a} and ${b} is :`, result);
 
 function loginUserMessage(username = "Anonymous") { // if we give a default value to a parameter,it will always be executed and can be over-ridden
   //   if (username === undefined) console.log("Please enter a username");
@@ -30,6 +30,6 @@ function loginUserMessage(username = "Anonymous") { // if we give a default valu
   else return `${username} just logged in`;
 }
 // console.log(loginUserMessage("Arjun"));
-console.log(loginUserMessage()); // out will be undefined just logged in
+console.log(loginUserMessage()); // output will be Anonymous just logged in
 
 

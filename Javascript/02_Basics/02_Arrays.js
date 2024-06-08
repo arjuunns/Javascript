@@ -8,7 +8,7 @@ const dc_Heroes = ["Superman", "Flash", "Batman"];
 // concat => to merge two arrays
 
 const allHeroes = marvel_Heroes.concat(dc_Heroes); // concat returns a new array so you need another array in order to store it
-console.log(allHeroes);
+// console.log(allHeroes);
 // console.log(marvel_Heroes);
 
 // Spread operator is more commonly used to merge arrays
@@ -27,7 +27,7 @@ const flattened_Arr = anotherArr.flat(Infinity); // flat(depth till which you wa
 
 // IMP ARRAY FUNCTIONS =>
 
-console.log(Array.isArray("Arjun")); // checks if argument is an array or not
+// console.log(Array.isArray("Arjun")); // checks if argument is an array or not
 console.log(Array.from("Arjun")); // makes an array of arguments
 console.log(Array.from({ name: "Arjun" })); //interesting : key,value pair => cant decide what to do with keys
 

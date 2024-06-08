@@ -20,7 +20,7 @@ const newNums = myNums.filter((num) => {
 });
 
 myNums.forEach((num) => {
-  //   if (num > 4) console.log(num);
+    // if (num > 4) console.log(num);
 });
 
 // console.log(newNums);
@@ -40,7 +40,7 @@ const books = [
 // extract data based on certain criteria => use filter function
 
 let userBooks = books.filter((bk) => bk.genre === "Science"); // bina curly braces ke return nahi likhna hai
-//   console.log(userBooks);
+  console.log(userBooks);
 
 userBooks = books.filter((bk) => { // curly braces ke saath return likhna hai
   return bk.publish > 1985 && bk.genre === "Fiction";

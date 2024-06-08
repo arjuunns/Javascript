@@ -15,10 +15,10 @@ const arr = [1, 2, 3, 4, 5];
 //   console.log(value);
 // }
 
-// const greetings = "Hello World";
-// for (const greet of greetings) {
-//   console.log(`Each char is ${greet}`);
-// }
+const greetings = "Hello World";
+for (const ch of greetings) {
+  console.log(`Each char is ${ch}`);
+}
 
 // Maps => unique values in order
 
@@ -26,11 +26,11 @@ const map = new Map();
 map.set("IN", "INDIA");
 map.set("Fr", "France");
 map.set("Aus", "Australia");
-// console.log(map);
+console.log(map);
 
-// for (const [key, value] of map) { // to print keys and values separately (slight variation of for of loop)
-//   console.log(key, ":-", value);
-// }
+for (const [key, value] of map) { // to print keys and values separately (slight variation of for of loop)
+  console.log(key, ":-", value);
+}
 
 // On Objects =>
 

@@ -12,4 +12,4 @@ console.log(undefined > 0); // F
 console.log(undefined < 0); // F
 
 // triple equality also check for dataypes first
-console.log("2" === 2); // F
+console.log("2" == 2); // F

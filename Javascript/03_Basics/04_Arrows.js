@@ -13,11 +13,11 @@ const user = {
 
 // console.log(this); // **** gives context as empty bcuz in node environment there is no global context but if you run it in browser it will give window as the current context. 
 
-// function chai(){
-//     let username = "Arjun"
-//     console.log(this.username); // cannot use this keyword in this type of function declarations
-// }
-// chai();
+function chai(){
+    let username = "Arjun"
+    console.log(this.username); // cannot use this keyword in this type of function declarations
+}
+chai();
 
 // const chai = function(){
 //     let username = "Arjun"
@@ -26,12 +26,12 @@ const user = {
 // chai();
 
 
-const chai = () => { // function declaration using arrow (arrow functions)
-        let username = "Arjun"
-        console.log(this); // yaha pe empty ayega context naki chai function
-        console.log(this.username); // cannot use this keyword in this type of function declarations
-    }
-chai();
+// const chai = () => { // function declaration using arrow (arrow functions)
+//         let username = "Arjun"
+//         console.log(this); // yaha pe empty ayega context naki chai function
+//         console.log(this.username); // cannot use this keyword in this type of function declarations
+//     }
+// chai();
 
 /***********************************  MORE ABOUT ARROW FUNCTIONS  ***************************************/
 

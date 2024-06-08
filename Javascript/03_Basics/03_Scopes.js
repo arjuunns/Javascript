@@ -1,9 +1,9 @@
-//var c = 300
+var c = 300
 let a = 300;
 if (true) {
   let a = 10;
   const b = 20;
-  // console.log("INNER: ", a);
+  console.log("INNER: ", a);
 }
 
 // console.log(a);
@@ -41,7 +41,7 @@ console.log(addOne(5)); // in this type of declaration we can use the function e
 function addOne(num) {
   return num + 1;
 }
-console.log(addTwo(5)); // we cant use the function before its declaration when using an expression to declare a function
+// console.log(addTwo(5)); // we cant use the function before its declaration when using an expression to declare a function
 const addTwo = function (num) { // function declared as an expression
   return num + 2;
 };

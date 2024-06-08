@@ -56,8 +56,7 @@ const users = [
 
 // console.log(users[0].id, users[1].email);
 // console.log(tinderuser);
-
-/************************************** VERY IMP METHODS TO RETRIEVE DATA FROM OBJECTS EXTENSIVELY USED IN BACKEND ****************************/
+/************************ VERY IMP METHODS TO RETRIEVE DATA FROM OBJECTS EXTENSIVELY USED IN BACKEND ****************************/
 
 console.log(Object.keys(tinderuser)); // ************************* converts all the keys to an array *******************************
 console.log(Object.values(tinderuser)); // *********************** converts all the values to an array *****************************

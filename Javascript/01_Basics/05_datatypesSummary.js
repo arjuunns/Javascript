@@ -33,7 +33,7 @@ const myFunction = function () {
 
 let myYoutubeName = "codeWithArjun";
 let anothername = myYoutubeName;
-anothername = "GamingWithArjun"; // stack memory => primitive datatype => change in one variable does'nt reflect in other variable bcuz a copy of tht variable is created and change occurs there
+anothername = "GamingWithArjun"; // stack memory => primitive datatype => change in one variable does'nt reflect in other variable bcuz a copy of that variable is created and change occurs there
 console.log(myYoutubeName);
 console.log(anothername);
 

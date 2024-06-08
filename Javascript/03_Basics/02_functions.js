@@ -1,7 +1,7 @@
 // function calculateCartPrice(...items) { // jab hume na pta ho function me kitne parameters aa skte hai we use ... (rest operator)
 // return items;
 // }
-// console.log(calculateCartPrice(10,20,30,40)); // array me dalke de dega multiple arguments ko
+console.log(calculateCartPrice(10,20,30,40)); // array me dalke de dega multiple arguments ko
 
 function calculateCartPrice(item1, item2, ...items) { // phli 2 values item1,item2 me chali jayegi aur baki values array me bcuz of rest operartor (...)
   return items;
@@ -15,7 +15,7 @@ const user = {
   price: "299",
 };
 
-function handleObject(anyobject) {
+const handleObject = function(anyobject) {
   console.log(`username is ${anyobject.username} and price is ${anyobject.price}`); // we also need to ensure ki anyobject ke pass username aur price jaisi properties hai bhi ya nahi
 }
 

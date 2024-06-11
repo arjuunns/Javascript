@@ -48,3 +48,7 @@ console.log(`hi ${name}`);
   return it.name ==="Arjun"
  });
  console.log(userdata);
+
+ const obj1 = [1,2,3];
+  const x = obj1.reduce((curval,num)=>curval+num,0);
+ console.log(x);

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur Code</title>
+</head>
+
+<body style="background-color: #212121;color: white;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+
+</body>
+<script>
+
+    function addLanguage(langName) { // is method mein pura tree traverse karna pdta 
+        const li = document.createElement('li'); // hai innerHTML ki vajah se so not optimal approach
+        li.innerHTML = `${langName}`;
+        document.querySelector('.language').appendChild(li);
+    }
+    addLanguage("C++");
+    addLanguage("Typescript");
+    addLanguage("Java");
+
+    // Optimal Way to addContent to document =>
+    // lets try arrow function
+    const addOptiLanguage = (langName) => {
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName));
+        document.querySelector('.language').appendChild(li);
+    }
+
+    addOptiLanguage("Golang");
+    addOptiLanguage("Ruby");
+    addOptiLanguage("Scala");
+
+
+    // EDIT =>
+
+    const secondLang = document.querySelector('li:nth-child(2)');
+    // secondLang.innerHTML = "Fortran";
+    const newLi = document.createElement('li');
+    newLi.textContent = "Fortran";
+    secondLang.replaceWith(newLi);
+
+    // another way =>
+
+    const firstLang = document.querySelector("li:first-child");
+    firstLang.outerHTML = '<li>SQL</li>'
+
+    // remove=>
+
+    const lastLang = document.querySelector('li:last-child');
+    lastLang.remove();
+</script>
+
+</html>
